@@ -1,88 +1,76 @@
+body {
+  background-color: white;
+  font-family: helvetica;
+}
+
+.background{
+	background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+	background-size: cover;
+	background-position: bottom center;
+}
+
 .title{
-	font-family: helvetica;
-	font-size:  70px;
+	font-size: 70px;
 	font-weight: bold;
 	color: white;
 	text-align: center;
 }
 
-.navigate{
-	font-family: helvetica;
-	font-size:  18px;
+.navigation ul{
+	text-align: center;
+	padding: 0;
+	line-height: 35px;
+}
+
+.navigation a{
+	font-size: 18px;
 	color: white;
+}
+
+.how ul{
 	text-align: center;
+	padding: 0;
 }
 
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-
+.how li{
+	font-size: 23px;
+	font-weight: bold;
 }
 
-.image{
-    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-
-p{
-	font-family: helvetica;
-	text-align: center;
-	font-size: 14px;
-}
-
-.process{
-	font-family: helvetica;
+.how li.process{
 	font-size: 32px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.step1{
-	font-family: helvetica;
-	font-size: 23px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.step2{
-	font-family: helvetica;
-	font-size: 23px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.step3{
-	font-family: helvetica;
-	font-size: 23px;
-	font-weight: bold;
-	text-align: center;
 }
 
 .york{
-	font-family: helvetica;
 	font-size: 23px;
 	font-weight: bold;
-	text-align: center;
 	color: white;
-	 background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+	text-align: center;
+	background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
 }
 
-h3{
-	font-family: helvetica;
+.work ul{
+	text-align: center;
+	padding: 0;
+}
+
+.work li{
 	font-size: 23px;
 	font-weight: bold;
-	text-align: center;
 }
 
-h4{
-	font-family: helvetica;
-	font-size: 11px;
+p{
+	font-size: 14px;
+}
+
+.return{
 	color: white;
 	background-color: dimgray;
 }
+.copy{
+	font-size: 11px;
+}
 
-#nav{
-	font-size: 18px;
+.return a{
+	color: white
 }
